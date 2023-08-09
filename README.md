@@ -20,5 +20,9 @@ pip install adafruit-circuitpython-max31865
 gpiozero: Biblioteca para controlar pines GPIO en la Raspberry Pi.
 pip install gpiozero
 
+Una vez instalados los paquetes o las librerias tendras que utilizar el siguiente comando cada vez que la raspberry pi
+se encienda esto ayudara que los pines GPIO esan utilizables
+sudo pigpiod
+
 Tambien tendras que instalar la extension de Python en el visual studio Code para que puedas ejecutar el programa
 acuerdate que si el programa no se ejecuta en una raspberry pi mandara un error el cual no detectara los pines GPIO
